@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="display">
+                <input placeholder="0" name="displayResult" id="displayResult">
+            </div>
+            <div class="row">
+                <button name="ac_button" value="ac" id="ac_button" onclick="reset()">AC</button>
+                <button name="neg_button" value="neg" id="neg_button" onclick="negation()">+/-</button>
+                <button name="percent_button" value="%" id="percent_button" onclick="calculatePercentage()">%</button>
+                <button name="divide_button" value="÷" id="divide_button" onclick="AddToCalculator(event)">÷</button>
+            </div>
+            <div class="row">
+                <button name="button7" value="7" id="button7" onclick="AddToCalculator(event)">7</button>
+                <button name="button8" value="8" id="button8" onclick="AddToCalculator(event)">8</button>
+                <button name="button9" value="9" id="button9" onclick="AddToCalculator(event)">9</button>
+                <button name="mul_button" value="×" id="mul_button" onclick="AddToCalculator(event)">×</button>
+            </div>
+            <div class="row">
+                <button name="button4" value="4" id="button4" onclick="AddToCalculator(event)">4</button>
+                <button name="button5" value="5" id="button5" onclick="AddToCalculator(event)">5</button>
+                <button name="button6" value="6" id="button6" onclick="AddToCalculator(event)">6</button>
+                <button name="sub_button" value="-" id="sub_button" onclick="AddToCalculator(event)">-</button>
+            </div>
+            <div class="row">
+                <button name="button1" value="1" id="button1" onclick="AddToCalculator(event)">1</button>
+                <button name="button2" value="2" id="button2" onclick="AddToCalculator(event)">2</button>
+                <button name="button3" value="3" id="button3" onclick="AddToCalculator(event)">3</button>
+                <button name="add_button" value="+" id="add_button" onclick="AddToCalculator(event)">+</button>
+            </div>
+            <div class="row">
+                <button name="button00" value="00" id="button00" onclick="AddToCalculator(event)">00</button>
+                <button name="button0" value="0" id="button0" onclick="AddToCalculator(event)">0</button>
+                <button name="point_button" value="." id="point_button" onclick="AddToCalculator(event)">.</button>
+                <button value="=" id="equal_button" onclick="calculate()">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
