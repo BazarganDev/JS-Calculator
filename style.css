@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "SF Pro Regular";
+    src: url(./fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+* {
+    font-family: "SF Pro Regular";
+}
+
+body {
+    background-color: #5c5c5c;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    padding-bottom: 20px;
+    width: 300px;
+    height: 500px;
+}
+
+.display {
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    background: black;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.row {
+    width: 420px;
+    padding-left: 10px;
+    margin-top: 3px;
+    float: left;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background: #ecedef;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #5e5858;
+    cursor: pointer;
+}
+
+.display input {
+    width: 270px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: white;
+    text-align: right;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0 25px;
+}
+
+#divide_button,
+#mul_button,
+#sub_button,
+#add_button,
+#equal_button {
+    background-color: #ff9f0a;
+    color: #ffffff;
+}
+
+#ac_button,
+#neg_button,
+#percent_button {
+    background-color: #5c5c5f;
+    color: #ffffff;
+}
+
+#button1,
+#button2,
+#button3,
+#button4,
+#button5,
+#button6,
+#button7,
+#button8,
+#button9,
+#button0,
+#button00,
+#point_button {
+    background-color: #2a2a2c;
+    color: #ffffff;
+}
